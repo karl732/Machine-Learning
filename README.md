@@ -1,5 +1,12 @@
 # Projet web-scraping
 
+Est-ce que vous aussi vous avez déjà voulu vendre votre console de jeux vidéos mais vous ne saviez pas à quel prix la vendre?
+Si oui alors ce projet est fait pour vous !
+
+Dans ce projet nous avons voulu déterminer le prix de vente optimal d'une console de jeux vidéos en Indre-et-Loire, selon la marque de la console, ses caractéristiques, et son état. 
+Pour cela nous avons utilisé le package `Selenium` de python pour faire du web-scraping et récupéré les données de plusieurs centaines de consoles, puis nous avons transformé les données et enfin nous avons utilisé des modèles de machnie learning pour prédire le prix optimal d'une console selon ses caractéristiques.
+
+
 ## 1. Scraping
 
 Pour extraire les données qui nous intéressent du site, nous avons créé 4 librairies : librairie_1, librairie_2, librairie_3 et librairie_4. Chacune d'entre elles permet de réaliser une partie de l'extraction des données, dans l'ordre de leur numérotation. L'objet final contenant les données extraites est disponible dans le document "liste_final.json" présent dans le répertoire. Il a été utilisé ultérieurement dans le projet pour la création et le nettoyage de la base de données.
